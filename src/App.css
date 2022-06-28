@@ -1,0 +1,54 @@
+body {
+  position: relative;
+}
+.mainLayout {
+  box-sizing: border-box;
+}
+.headerw,
+.headerw-item {
+  display: flex;
+  align-items: center;
+}
+
+.headerw {
+  justify-content: space-between;
+}
+
+.headerw .logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-right: 30px !important;
+}
+
+.headerw .logo .fas {
+  color: #1890ff;
+  margin: 0 5px 0 0;
+  font-size: 28px;
+}
+
+.headerw .logo a {
+  color: #333;
+}
+.ant-menuu {
+  width: 800px;
+}
+
+.site-layout-content {
+  padding: 50px 150px;
+  background: #fff;
+}
+
+.ant-card-cover {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: auto;
+}
